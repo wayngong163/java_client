@@ -26,13 +26,12 @@ public class client {
 		c1.client_task();
 		while (true) {
 			String str = wt.readLine();
-			out.println(str);
+			out.println("test");
 			out.flush();
 			if (str.equals("end")) {
 				break;
 			}
 			System.out.println(in.readLine());
-			c1.client_task();
 		}
 		server.close();
 	}
